@@ -231,7 +231,7 @@ input[type=submit] {
 
   nav {
       float: right;
-      margin-top: 1%;
+      margin-right: 10%;
   }
   Nav a {
       background-color: white;
@@ -257,13 +257,16 @@ input[type=submit] {
 
   .main-section {
       width: 100%;
+      font-size: 28px;
   }
 
 
   .work {
-      width: 40%;
+    max-width: 300px;
+    margin: 0px 30px 30px 0px;
+    
       margin: 5%;
-      float: left;
+      float: left; 
   }
 
 
@@ -286,9 +289,11 @@ input[type=submit] {
   body {
     background-color: #333;
   }
+ 
 
   nav {
       width: 50%;
+      margin-right: 10%;
   }
 
 
@@ -307,12 +312,14 @@ input[type=submit] {
 
 .main-section {
       width: 100%;
+      font-size: 28px;
   }
 
 
   .work {
-      width: 40%;
-      margin: 5%;
+      margin: 5%; 
+      max-width: 250px;
+      margin: 0px 15px 15px 0px;
   }
 
 
@@ -340,24 +347,44 @@ input[type=submit] {
   header {
       width: 100%;
       position: static;
-      height: 50%;
+      height: auto;
+      text-align: center;
   }
   nav {
       margin: 0 auto;
+      width: auto;
+      padding: 3px 0;
+      border: 1px solid white;
       text-align: center;
       float: none;
+      
   }
   Nav a {
       width: 100%;
       background-color: white;
       margin: 0 auto;
       float: none;
+      padding: 0;
+      font-size: 18px;
   }
   h1 {
       width: 100%;
       margin: 0px;
       text-align: center;
-      font-size: 120%
+      font-size: 24px;
+      padding: 0px;
+      height: 36px;
+      line-height: 36px;
+      
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 500px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    text-align: center;
+  }
+
   }
 
   .auth-image {
@@ -366,6 +393,7 @@ input[type=submit] {
 
   .main-section {
       width: 100%;
+      padding-top: 90px;
   }
 
 
